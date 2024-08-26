@@ -42,9 +42,9 @@ Supported platform architecture:
 ## Usage
 
 ```bash
-bash <(curl -fsSL git.io/warp.sh) [SUBCOMMAND]
+bash <(curl -fsSL https://raw.githubusercontent.com/fxf981/warp.sh/main/warp.sh) [SUBCOMMAND]
 # or
-wget git.io/warp.sh
+wget https://raw.githubusercontent.com/fxf981/warp.sh/main/warp.sh
 bash warp.sh [SUBCOMMAND]
 ```
 
