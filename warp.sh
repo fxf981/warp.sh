@@ -1148,6 +1148,7 @@ Print_Usage() {
 Cloudflare WARP Installer [${shVersion}]
 
 USAGE:
+    echo 4444444444
     bash <(curl -fsSL p.ff11.tk/https://git.io/warp.sh) [SUBCOMMAND]
 
 SUBCOMMANDS:
