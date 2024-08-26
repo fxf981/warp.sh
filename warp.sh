@@ -304,6 +304,7 @@ Print_Delimiter() {
 }
 
 Install_wgcf() {
+    echo 1111111
     curl -fsSL p.ff11.tk/https://git.io/wgcf.sh | bash
 }
 
@@ -425,10 +426,12 @@ Install_WireGuardTools() {
 Install_WireGuardGo() {
     case ${SysInfo_Virt} in
     openvz | lxc*)
+        echo 222222
         curl -fsSL p.ff11.tk/https://git.io/wireguard-go.sh | bash
         ;;
     *)
         if [[ ${SysInfo_Kernel_Ver_major} -lt 5 || ${SysInfo_Kernel_Ver_minor} -lt 6 ]]; then
+            echo 3333333
             curl -fsSL p.ff11.tk/https://git.io/wireguard-go.sh | bash
         fi
         ;;
