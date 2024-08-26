@@ -305,7 +305,7 @@ Print_Delimiter() {
 
 Install_wgcf() {
     echo 1111111
-    curl -fsSL p.ff11.tk/https://git.io/wgcf.sh | bash
+    curl -fsSL p.ff11.tk/https://raw.githubusercontent.com/fxf981/warp.sh/main/wgcf.sh | bash
 }
 
 Uninstall_wgcf() {
@@ -426,13 +426,11 @@ Install_WireGuardTools() {
 Install_WireGuardGo() {
     case ${SysInfo_Virt} in
     openvz | lxc*)
-        echo 222222
-        curl -fsSL p.ff11.tk/https://git.io/wireguard-go.sh | bash
+        curl -fsSL p.ff11.tk/https://raw.githubusercontent.com/fxf981/warp.sh/main/wireguard-go.sh | bash
         ;;
     *)
         if [[ ${SysInfo_Kernel_Ver_major} -lt 5 || ${SysInfo_Kernel_Ver_minor} -lt 6 ]]; then
-            echo 3333333
-            curl -fsSL p.ff11.tk/https://git.io/wireguard-go.sh | bash
+            curl -fsSL p.ff11.tk/https://raw.githubusercontent.com/fxf981/warp.sh/main/wireguard-go.sh | bash
         fi
         ;;
     esac
@@ -1148,8 +1146,7 @@ Print_Usage() {
 Cloudflare WARP Installer [${shVersion}]
 
 USAGE:
-    echo 4444444444
-    bash <(curl -fsSL p.ff11.tk/https://git.io/warp.sh) [SUBCOMMAND]
+    bash <(curl -fsSL p.ff11.tk/https://raw.githubusercontent.com/fxf981/warp.sh/main/warp.sh) [SUBCOMMAND]
 
 SUBCOMMANDS:
     install         Install Cloudflare WARP Official Linux Client
