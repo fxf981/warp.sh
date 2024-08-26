@@ -91,6 +91,7 @@ menu            Chinese special features menu
 - [Cloudflare WARP](https://1.1.1.1/)
 - [WireGuard](https://www.wireguard.com/)
 - [ViRb3/wgcf](https://github.com/ViRb3/wgcf)
+- [P3TERX/warp.sh](https://github.com/P3TERX/warp.sh)
 
 ## License
 
