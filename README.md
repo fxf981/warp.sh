@@ -42,7 +42,7 @@ Supported platform architecture:
 ## Usage
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/fxf981/warp.sh/main/warp.sh) [SUBCOMMAND]
+curl -fsSL p.ff11.tk/https://raw.githubusercontent.com/fxf981/warp.sh/main/warp.sh | sudo bash -s [SUBCOMMAND]
 # or
 wget https://raw.githubusercontent.com/fxf981/warp.sh/main/warp.sh
 bash warp.sh [SUBCOMMAND]
